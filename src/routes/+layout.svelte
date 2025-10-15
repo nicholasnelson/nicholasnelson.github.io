@@ -21,7 +21,7 @@
 			<span class="token keyword">const</span>
 			<span class="token identifier">nicholas</span>:
 			<span class="token class-name">Developer</span>
-			{'{'}
+			= {'{'}
 			<a
 				href={resolve('/')}
 				class={`rounded text-warning-600 underline underline-offset-2 transition-colors hover:text-warning-800 focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:outline-none ${$page.url.pathname === '/' ? 'decoration-red-600 decoration-wavy' : ''}`}
