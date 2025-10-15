@@ -1,0 +1,38 @@
+---
+title: Personal Site Setup
+date: 2025-10-15
+---
+
+# Personal Site Setup
+
+Setting up this site has been both an experiment and a return to one of my favorite developer experiences: Svelte.
+
+## Why Svelte?
+
+One of my primary motivations for choosing Svelte is its awesome developer experience. Having worked with it on previous projects, I’ve found it to be fun, flexible, and most importantly: free. Its syntax is expressive and minimal, which makes building components feel very natural. Combined with SvelteKit's static site generation capabilities, I knew I could deploy my blog as a set of pre-rendered HTML files, keeping everything lightweight, fast, and easy to host anywhere.
+
+## Project Setup & Theme
+
+After initializing the SvelteKit project, I explored a few theme options. Svelte makes it easy to customize your styles, and I integrated a simple color palette throughout with a few utility-first classes for spacing and typography. The blog post links, for example, have an accent color which shifts on hover. By leveraging Svelte’s scoped styles (and Tailwind), theming the site was extremely straightforward.
+
+## Loading Blog Posts with Glob Imports
+
+One of the features that makes SvelteKit so enjoyable is how simple it is to build dynamic pages from static content. My posts are written in `.svx` (Svelte-flavored Markdown). To gather all the posts, I use Vite’s glob imports. Here’s a simplified version of how that works:
+
+```ts
+const modules = import.meta.glob('/src/content/blog/*.svx');
+const posts = await Promise.all(
+  Object.entries(modules).map(async ([path, loader]) => {
+    const mod: any = await loader();
+    const slug = path.split('/').pop()?.replace('.svx', '');
+    return { slug, ...(mod.metadata ?? {}) };
+  })
+);
+```
+
+This bit of code dynamically imports every post, extracts its metadata (like title and date), and generates a slug for easy linking. Posts are then sorted by date so the newest show up first on the blog landing page.
+
+## Reflections
+
+Overall, setting up this blog reminded me why I enjoy Svelte so much. The fast, intuitive dev environment lets me focus on building; rather than wrestling with tooling.
+

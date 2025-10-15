@@ -1,0 +1,14 @@
+
+
+# Hi, I'm Nicholas
+
+
+I build software. My interests span **Rust**, **WebAssembly**, **TypeScript**, and **Svelte**.
+
+Some of my projects:
+
+- **wasm-chip-8** — a CHIP-8 emulator for browsers in Rust + WASM  
+- **axcelerate-client** — a typed TypeScript wrapper for the aXcelerate API  
+- **wasm-game-of-life** — cellular automaton in Rust + WASM  
+
+You can find me on [GitHub](https://github.com/nicholasnelson), or check out my [blog](/blog).

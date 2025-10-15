@@ -1,0 +1,209 @@
+/**
+ * Horizon Tide — Prism theme
+ */
+
+/* Set the main properties of the code, code blocks, and inline code */
+code[class*="language-"],
+pre[class*="language-"] {
+    background: unset;
+    color: var(--color-primary-800);
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    /* this is the default */
+    /* The following properties are standard, please leave them as they are */
+    font-size: 1em;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    /* The default is 4, but you could change it if you really, really want to */
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    /* The following properties are also standard */
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+/* Optional: What the code looks like when highlighted */
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection {
+    background: var(--color-primary-200);
+    color: inherit;
+}
+
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection,
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection {
+    background: var(--color-primary-200);
+    color: inherit;
+}
+
+/* Properties specific to code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    /* this is standard */
+    margin: 0.5em 0;
+    /* this is the default */
+    overflow: auto;
+    /* this is standard */
+    border-radius: unset;
+    background: var(--color-primary-200);
+}
+
+/* Properties specific to inline code */
+:not(pre)>code[class*="language-"] {
+    padding: 0.1em;
+    /* this is the default */
+    border-radius: 0.25rem;
+    white-space: normal;
+    /* this is standard */
+    background: var(--color-primary-200);
+}
+
+/**
+ * Minimum tokens
+ */
+.token.comment {
+    color: var(--color-success-700);
+}
+
+.token.prolog {
+    color: var(--color-success-700);
+}
+
+.token.cdata {
+    color: var(--color-success-700);
+}
+
+.token.doctype {
+    color: var(--color-success-700);
+}
+
+.token.punctuation {
+    color: var(--color-primary-800);
+}
+
+.token.entity {
+    color: var(--color-warning-600);
+}
+
+.token.attr-name {
+    color: var(--color-warning-600);
+}
+
+.token.class-name {
+    color: var(--color-secondary-700);
+}
+
+.token.boolean {
+    color: var(--color-secondary-600);
+}
+
+.token.constant {
+    color: var(--color-secondary-600);
+}
+
+.token.number {
+    color: var(--color-secondary-600);
+}
+
+.token.atrule {
+    color: var(--color-primary-700);
+}
+
+.token.keyword {
+    color: var(--color-primary-700);
+}
+
+.token.property {
+    color: var(--color-warning-600);
+}
+
+.token.tag {
+    color: var(--color-error-700);
+}
+
+.token.symbol {
+    color: var(--color-secondary-600);
+}
+
+.token.deleted {
+    color: var(--color-error-700);
+}
+
+.token.important {
+    color: var(--color-warning-600);
+}
+
+.token.selector {
+    color: var(--color-primary-800);
+}
+
+.token.string {
+    color: var(--color-error-600);
+}
+
+.token.char {
+    color: var(--color-error-600);
+}
+
+.token.builtin {
+    color: var(--color-primary-600);
+}
+
+.token.inserted {
+    color: var(--color-secondary-600);
+}
+
+.token.regex {
+    color: var(--color-warning-600);
+}
+
+.token.attr-value {
+    color: var(--color-primary-700);
+}
+
+.token.variable {
+    color: var(--color-secondary-600);
+}
+
+.token.operator {
+    color: var(--color-primary-800);
+}
+
+.token.function {
+    color: var(--color-primary-700);
+}
+
+.token.url {
+    color: var(--color-secondary-600);
+}
+
+/* The following rules are pretty similar across themes, but feel free to adjust them */
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+.token.namespace {
+    opacity: 0.7;
+}
+
+/* LANGUAGE-SPECIFIC OVERRIDES */
+.language-css .token.important {
+    color: var(--color-primary-700);
+}
