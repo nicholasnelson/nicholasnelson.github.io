@@ -6,7 +6,7 @@
 <button
 	type="button"
 	on:click={toggle}
-	class={`relative inline-flex h-7 w-14 items-center rounded-full transition-colors
+	class={`relative inline-flex h-7 w-14 min-w-14 items-center rounded-full transition-colors
 	        focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:outline-none
 	        ${$theme === 'dark' ? 'bg-primary-300' : 'bg-primary-200 hover:bg-primary-300'}`}
 	role="switch"
