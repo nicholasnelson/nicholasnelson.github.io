@@ -1,0 +1,50 @@
+---
+title: Mengenlehreuhr - The Berlin Clock
+date: 2025-11-05
+---
+
+<script>
+  import { BerlinClock } from "@nicnels/svelte-berlin-clock";
+</script>
+
+## Rabbit Holes
+
+> The sacrifice of oneself to the pursuit of knowledge
+> Is the highest tribute to the gods. 
+
+I've always been drawn to codes, even if I lack any real gift for them. I've spent more late nights than I'd admit, fruitlessly trying to solve some puzzle when I should have been sleeping.
+
+The Noita "eye" puzzle absorbed an embarrassing number of hours. Each time, I'd convince myself I was close - one substitution away, one layer of abstraction deeper. My enthusiasm exceeds my skill, but I keep coming back because puzzles like *Kryptos* or the Noita eye puzzle sit at the intersection of art, math, and mystery. They make you want to understand the system beneath the surface.
+
+## Mengenlehreuhr - The Berlin Clock
+
+If you've never encountered it, the *Mengenlehreuhr* ("Set Theory Clock") is a brutalist block of color that's been marking time in Berlin since 1975. Designed by Dieter Binninger and commissioned by the Berlin Senate, it is a towering monument to esoteric timekeeping.
+
+I first came across the Berlin Clock years ago when Jim Sanborn confirmed that the words *Berlin Clock* appear in the plaintext of the fourth passage of *Kryptos*. That's also how I stumbled across it again recently, with the news that someone had finally found the solution to K4.
+
+## How the Berlin Clock Works
+
+The clock's design speaks to the elegance of trading function for form. Time in hours and minutes is read by interpreting the lights in a sort of base-5 format. Not the most intuitive display, but simple enough once understood.
+
+- The **top single lamp** blinks every two seconds.  
+- The **next row** has 4 red lamps, each representing **5 hours**.  
+- The **third row** has 4 more red lamps, each representing **1 hour**.  
+- The **fourth row** has 11 yellow-and-red lamps, each worth **5 minutes**, with the red lamps marking quarters.  
+- The **bottom row** has 4 yellow lamps, each worth **1 minute**.  
+
+## Implementing the Berlin Clock in Svelte
+
+I couldn't resist building one myself.
+
+Svelte felt like the right fit. It always does.
+
+Here's the live demo:
+
+<BerlinClock />
+
+## Why It Still Resonates
+
+The Berlin Clock is appealing as both a work of art and a riddle, the same qualities that make *Kryptos* and the Noita eye puzzle legendary. Each one hides meaning and complexity—the inner workings of a system exposed to us through a narrow aperture—encouraging us to peer in from different angles in an effort to understand what lies within.
+
+To me, puzzles have become less about solving and more about cognitive fiddling. The act of tinkering with a puzzle; experimenting; testing; these things in themselves are the reward. The Art is the process, not the product.
+
