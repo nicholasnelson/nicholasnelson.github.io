@@ -1,0 +1,217 @@
+---
+title: Machine Tools and the Meaning of Making
+date: 2026-02-23
+---
+
+# Machine Tools and the Meaning of Making
+
+There's a quiet kind of grief floating around at the moment.
+
+You see it in group chats. In long threads on Hacker News. In blog posts, on YouTube; it's a feeling in the air. A sense that something beautiful and logical is being taken away.
+
+For years, being a good developer felt a lot like being a woodworker.
+
+You'd sit down at an empty workspace and start shaping something carefully. Transforming ideas, into plans, into reality. Clean functions. Thoughtful abstractions. Naming things properly. You'd measure twice and cut once. You'd sand rough edges. You'd step back and look at the grain of the system, making sure the joints were tight and the structure would hold.
+
+There's a rhythm to it. A meditative calm. You feel the edges of the problem; examine its shape, its colour, its texture. You know every component intimately. Every perfect join, every splinter, every rough edge.
+
+And now?
+
+Now you can type a paragraph and the machine gives you a solution.
+
+---
+
+## The Woodworker
+
+Imagine you've spent ten years becoming a master woodworker.
+
+You've learned to read grain. You've sharpened chisels by hand. You can tell the difference between good timber and rubbish just by running your fingers along it. You've built one-of-a-kind pieces. Slow, deliberate, beautiful.
+
+Then someone rolls in with a power tool that can do in five minutes what used to take you half a day.
+
+They call it efficient. They call it progress.
+
+You might call it the end of something.
+
+I get that feeling. I really do.
+
+Writing good code can feel like shaping timber with hand tools. There's pride in it. There's identity in it. You become known for it. And when something comes along that says, "You don't need to do that anymore," it pokes at who you are.
+
+But here's the question:
+
+Did you love shaping timber?
+
+Or did you love building something beautiful?
+
+---
+
+## The Idea Firehose
+
+I've always had too many ideas.
+
+Not in a polished "startup founder" way. More in a scribbles-in-notebooks, think-about-it-while-doing-the-dishes kind of way.
+
+I'll go for a run and end up designing a game mechanic in my head. I'll be cooking dinner and mentally mapping out an app. I've got pages of half-baked concepts. Diagrams. Plans. "One day" projects.
+
+The problem was never ideas.
+
+The problem was turning them into reality.
+
+There's a big difference between thinking something through and sitting down to implement it. Even as a competent developer, building something properly takes time. Structure. Boilerplate. Edge cases. Configuration. Deployment. Testing. More edge cases.
+
+Most of my ideas died not because they were bad, but because the distance between spark and reality was too long.
+
+By the time I'd get through the scaffolding, the excitement would've cooled off. The next exciting idea would have arrived.
+
+I told myself that was just how it was. Hobby projects are for fun. It doesn't matter if they're finished, as long as you enjoy the process.
+
+---
+
+## The Shift
+
+Over the past couple of years, I've used AI in bits and pieces. Copy-paste snippets. Whipping up individual functions. Quick explanations. Nothing earth-shattering.
+
+I'll be honest - I was skeptical of agentic development.
+
+My early experiments ended in chaos. Huge, messy codebases. Layers of abstraction I didn't ask for. Mountains of tech debt. It felt like handing the tools to an enthusiastic apprentice who worked fast but left shavings all over the floor and glue where it didn't belong.
+
+That didn't feel like craft.
+
+So I kept my distance.
+
+More recently though, working with Claude Code and Opus 4.6, something shifted. The tooling felt more deliberate. More steerable. I could guide it. Refine it. Shape it without losing the thread. It stopped feeling like chaos and started feeling like acceleration.
+
+And in that shift, I realised something slightly confronting.
+
+For me, the joy was never just the code.
+
+To be clear - I love writing code. Considering abstractions. Chasing correctness. Shaving milliseconds. Refactoring something gnarly into something clean. The detailed, hands-on, low-level work is fascinating. Quality code can be beautiful - art. There's real, honest satisfaction there.
+
+But that's not why I do it.
+
+The reason I sit down at a keyboard isn't to write code.
+
+It's to take something that only exists in my head and bring it into the world.
+
+An idea. A hunch. A picture of how something should be.
+
+To shape it until it's real.
+
+Code has always been the tool I used to do that. The chisel. The plane. The saw.
+
+AI doesn't remove that impulse. It accelerates it. It reduces the friction between "this could exist" and "this does exist."
+
+And that's where the real joy lives for me.
+
+The moment a thought becomes a tool.
+
+A sketch becomes a system.
+
+A quiet idea becomes something you can open, tap, run, and use.
+
+I don't get my biggest thrill from writing classes and functions.
+
+I get it from watching the thing work.
+
+That was hard to admit.
+
+Because I've spent years thinking that writing code was the craft.
+
+But maybe code was just the medium.
+
+---
+
+## A Box, a Map, and 90 Minutes
+
+A few weekends ago it was my partner's birthday.
+
+For fun, we've been walking to every Street Library in different areas. It's a simple thing - wander the neighbourhood, find the little wooden boxes full of books, take one, leave one. A slow, wholesome kind of adventure.
+
+The website that lists them has a map.
+
+It works. Technically.
+
+But on a phone it's clunky. It reloads if your screen sleeps. You lose your position. It's hard to navigate from one library to the next. And there's no way to mark which ones you've already visited.
+
+Standing there, looking at the map, I had the thought:
+
+I could fix this.
+
+In an hour and a half working with Claude Code, I had a working Android app.
+
+Live map. My current position. Markers for each Street Library. Tap one and either mark it as "visited" - which changes its colour - or jump straight into your default navigation app.
+
+That's it.
+
+Nothing revolutionary. No grand vision.
+
+Just a small, specific problem in our little world, solved.
+
+When I showed it to her, she smiled and said, "It'd be good if I could see when I last visited one."
+
+And instead of that being an idea that sits in a backlog for months, it's just… a small extension. A tweak. A quick conversation with the machine.
+
+The gap between idea and reality was basically gone.
+
+That's what lit me up.
+
+Not the code.
+
+The making.
+
+---
+
+## What Do You Actually Love?
+
+If you genuinely love writing code by hand - if the act itself is the thing that nourishes you - keep doing it.
+
+Seriously. There's nothing wrong with that. There are still people who build furniture with hand tools. There are still photographers who shoot film. There's still beauty in deliberate slowness.
+
+But it's worth asking yourself a hard question:
+
+If someone took away the typing, would you still want to build?
+
+If someone could handle the scaffolding, the boilerplate, the glue - would you feel freed up, or displaced?
+
+For a while, I thought I'd feel displaced.
+
+Instead, I feel like someone opened a gate.
+
+The backlog of ideas isn't a graveyard anymore. It's a queue.
+
+The friction that used to kill momentum just isn't there in the same way.
+
+And I've realised that my craft isn't disappearing - it's shifting.
+
+The craft now is in defining the problem clearly. In shaping the intent. In knowing what "good" looks like. In deciding when something is finished.
+
+It's still judgment. Still taste. Still care.
+
+Just a different set of muscles.
+
+---
+
+## Bringing Ideas Into the World
+
+There's something deeply satisfying about walking down a suburban street, phone in hand, watching a little dot move across a map that didn't exist that morning.
+
+We tap a marker. It turns green. We admire the little wooden box with stained glass doors, wonder aloud whether the next one will have anything good inside.
+
+The joy isn't in writing the code.
+
+It's in the fact that an idea that lived in my head over breakfast is now guiding our afternoon.
+
+For me, that's the thing.
+
+Bringing an idea into the world and making it real.
+
+If AI takes away some of the manual shaping along the way, but gives me more of those moments - more ideas realised, more small problems solved, more tangible creations - then I'm not losing my craft.
+
+I'm just using a different tool in the shed.
+
+And at the end of the day, it's not about the hammer.
+
+It's about the house.
+
+---
+
