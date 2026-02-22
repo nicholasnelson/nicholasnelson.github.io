@@ -44,7 +44,7 @@ Here's the live demo:
 
 ## Why It Still Resonates
 
-The Berlin Clock is appealing as both a work of art and a riddle, the same qualities that make *Kryptos* and the Noita eye puzzle legendary. Each one hides meaning and complexity—the inner workings of a system exposed to us through a narrow aperture—encouraging us to peer in from different angles in an effort to understand what lies within.
+The Berlin Clock is appealing as both a work of art and a riddle, the same qualities that make *Kryptos* and the Noita eye puzzle legendary. Each one hides meaning and complexity - the inner workings of a system exposed to us through a narrow aperture - encouraging us to peer in from different angles in an effort to understand what lies within.
 
 To me, puzzles have become less about solving and more about cognitive fiddling. The act of tinkering with a puzzle; experimenting; testing; these things in themselves are the reward. The Art is the process, not the product.
 
