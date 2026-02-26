@@ -4,8 +4,26 @@
 	import ThemeToggle from '$lib/components/ThemeToggle.svelte';
 	import { page } from '$app/stores';
 	import { resolve } from '$app/paths';
+	import { afterNavigate } from '$app/navigation';
+	import { browser } from '$app/environment';
 
 	let { children } = $props();
+
+	if (browser) {
+		afterNavigate(({ to }) => {
+			// "to" can be null in some edge cases; guard it.
+			if (!to) return;
+
+			const path = to.url.pathname;
+
+			// GoatCounter
+			window.goatcounter?.count?.({
+				path,
+				title: document.title,
+				event: false
+			});
+		});
+	}
 </script>
 
 <svelte:head>
